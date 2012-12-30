@@ -1,0 +1,17 @@
+name: {{name}}
+main: cljminecraft.ClojurePlugin
+version: 1.0.0
+website: http://github.com/{{username}}/{{name}}
+author: {{username}}
+description: FixMe
+depend: [cljminecraft]
+#unneeded: class-loader-of: cljminecraft
+commands:
+  {{name}}.random:
+    description: Random dice roll
+    permission: {{name}}.random
+    usage: /<command>
+permissions:
+  {{name}}.dosomething:
+    description: Does something, I'm sure
+    default: op
